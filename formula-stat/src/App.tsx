@@ -13,12 +13,8 @@ import { Menubar } from 'primereact/menubar';
 import { MAIN_MENU_ITEMS } from './constants/main-menu-constants'
 
 
-interface Props {
-  submit: boolean;
-}
-
 class App extends React.Component {
-  constructor(props: Props) {
+  constructor(props: any) {
     super(props);
   }
 
